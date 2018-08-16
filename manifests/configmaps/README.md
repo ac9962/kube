@@ -1,7 +1,7 @@
 #### A small demo of how a configmap gets updated inside a running pod.
 
 Steps:
- 
+
 1- Create the configmap:
 
 kubectl create -f configmap.yaml
