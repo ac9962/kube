@@ -3,8 +3,9 @@
 Steps:
 
 1- Create the configmap:
-
-kubectl create -f configmap.yaml
+# kubectl create <name> foobar --from-file=<filename>
+#kubectl exec -it busybox -- ls -l /tmp/test
+kubectl create -f foobar.yaml
 
 2- Create the pod
 
